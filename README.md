@@ -12,6 +12,9 @@ This is collection of useful CTF links/scripts/applications.
 | strings | apt-get install binutils | Search for all plain-text strings in the file |
 | hexdump | ... | Creates an hex dump. Command: hexdump -C file |
 | binwalk | [binwalk](https://github.com/ReFirmLabs/binwalk) | Tool for analyzing, reverse engineering, and extracting. Usefull commands: binwalk --dd='.*' file |
+| steghide | sudo apt install steghide | Hide data in various kinds of image- and audio-files |
+
+
 
 ### Images
 | Tool | Instalation | Description |
