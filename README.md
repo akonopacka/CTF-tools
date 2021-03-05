@@ -4,7 +4,7 @@ This is collection of useful CTF links/scripts/applications. :mage_man:
 
 ## Forensic :floppy_disk:
 
-### Files
+### Files :open_file_folder:
 | Tool | Instalation | Description |
 |----------|:-:|-------------|
 | file | <center>...</center> | Check filetype extensions. Command: file screenshot.png  |
@@ -20,3 +20,8 @@ This is collection of useful CTF links/scripts/applications. :mage_man:
 | Tool | Instalation | Description |
 |----------|------|-------------|
 | Stegsolve | [Stegsolve](Forensic/Images/Stegsolve.jar) | Image stenography solver (TODO Update functions) |
+
+### Audio :headphones:
+| Tool | Instalation | Description |
+|----------|------|-------------|
+| Sonic Visualiser | [Sonic Visualiser](https://www.sonicvisualiser.org/download.html) | Look at spectogram and other few Pane. |
