@@ -1,6 +1,6 @@
 # CTF-tools
 
-This is collection of useful CTF links/scripts/applications. 
+This is collection of useful CTF links/scripts/applications. :mage_man:
 
 ## Forensic
 
