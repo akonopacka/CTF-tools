@@ -2,7 +2,7 @@
 
 This is collection of useful CTF links/scripts/applications. :mage_man:
 
-## Forensic
+## Forensic :floppy_disk:
 
 ### Files
 | Tool | Instalation | Description |
