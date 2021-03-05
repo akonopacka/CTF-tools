@@ -16,7 +16,7 @@ This is collection of useful CTF links/scripts/applications. :mage_man:
 
 
 
-### Images
+### Images :camera:
 | Tool | Instalation | Description |
 |----------|------|-------------|
 | Stegsolve | [Stegsolve](Forensic/Images/Stegsolve.jar) | Image stenography solver (TODO Update functions) |
