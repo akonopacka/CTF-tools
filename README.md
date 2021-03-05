@@ -38,4 +38,10 @@ This is collection of useful CTF links/scripts/applications. :mage_man:
 | CyberChef | [CyberChef](https://gchq.github.io/CyberChef/) | A web app for encryption, encoding, compression and data analysis. |
 | dcode | [dcode](https://www.dcode.fr/tools-list) | A toolkit website for decryption, ciphertexts, cheating at letter games, solve riddles etc. |
 
+## Networking :globe_with_meridians:
+| Tool | Instalation | Description |
+|----------|------|-------------|
+| Wireshark  | [Wireshark](https://www.wireshark.org/#download)<br/>sudo apt install wireshark | Analyze the network dumps. |
+| A-Packets  | [A-Packets](https://apackets.com/upload) | A web app for network dumps analysis. |
+
 
