@@ -11,7 +11,7 @@ This is collection of useful CTF links/scripts/applications.
 | exiftool | [exiftool](https://linoxide.com/linux-how-to/install-use-exiftool-linux-ubuntu-centos/) | Read metadata |
 | strings | apt-get install binutils | Search for all plain-text strings in the file |
 | hexdump | ... | Creates an hex dump. Command: hexdump -C file |
-| binwalk | [binwalk](https://github.com/ReFirmLabs/binwalk) | Tool for analyzing, reverse engineering, and extracting. Usefull commands: binwalk --dd='.*' file |
+| binwalk | [binwalk](https://github.com/ReFirmLabs/binwalk) | Tool for analyzing, reverse engineering, and extracting. Usefull commands: binwalk --dd='.*' file<br /> binwalk -e file|
 | steghide | sudo apt install steghide | Hide data in various kinds of image- and audio-files |
 
 
