@@ -30,7 +30,7 @@ This is collection of useful CTF links/scripts/applications. :mage_man:
 | Sonic Visualiser | [Sonic Visualiser](https://www.sonicvisualiser.org/download.html) | Look at spectogram and other few Pane. |
 
 
-## Crypto :floppy_disk:
+## Crypto :lock:
 | Tool | Instalation | Description |
 |----------|------|-------------|
 | CyberChef | [CyberChef](https://gchq.github.io/CyberChef/) | A web app for encryption, encoding, compression and data analysis. |
