@@ -22,6 +22,8 @@ This is collection of useful CTF links/scripts/applications. :mage_man:
 | Stegsolve | [Stegsolve](Forensic/Images/Stegsolve.jar) | Image stenography solver.|
 | StegOnline | [StegOnline](https://stegonline.georgeom.net/upload) | Online Image Steganography Tool for Embedding and Extracting data through LSB techniques.|
 | zsteg | [zsteg](https://github.com/zed-0xff/zsteg)<br/>sudo gem install zsteg | Detect stegano-hidden data in PNG & BMP.<br/>Usage: zsteg -a file|
+| jpdump | [jpdump](https://cyber.meme.tips/jpdump/) | A web app - read metadata|
+
 
 
 ### Audio :headphones:
