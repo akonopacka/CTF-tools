@@ -2,15 +2,17 @@
 
 This is collection of useful CTF links/scripts/applications. :mage_man:
 
+[Useful writeups](Writeups/README_WRITEUPS.md)
+
 ## Forensic :floppy_disk:
 
 ### Files :open_file_folder:
 | Tool | Installation | Description |
 |----------|:-:|-------------|
-| file | <center>...</center> | Check filetype extensions. Command: file screenshot.png  |
+| file | -| Check filetype extensions. Command: file screenshot.png  |
 | exiftool | [exiftool](https://linoxide.com/linux-how-to/install-use-exiftool-linux-ubuntu-centos/) | Read metadata |
 | strings | apt-get install binutils | Search for all plain-text strings in the file |
-| hexdump | ... | Creates an hex dump. Usage: hexdump -C file |
+| hexdump | - | Creates an hex dump. Usage: hexdump -C file |
 | binwalk | [binwalk](https://github.com/ReFirmLabs/binwalk) | Tool for analyzing, reverse engineering, and extracting. Usage: <br/> binwalk --dd='.*' file<br /> binwalk -e file|
 | steghide | sudo apt install steghide | Hide data in various kinds of image- and audio-files |
 
@@ -30,6 +32,8 @@ This is collection of useful CTF links/scripts/applications. :mage_man:
 | Tool | Installation | Description |
 |----------|------|-------------|
 | Sonic Visualiser | [Sonic Visualiser](https://www.sonicvisualiser.org/download.html) | Look at spectogram and other few Pane. |
+| Morse Decoder | [Morse Decoder](https://morsecode.world/international/decoder/audio-decoder-adaptive.html) |  Tool to analyse, decode Morse code in audio files. |
+
 
 
 ## Crypto :lock:
@@ -42,6 +46,6 @@ This is collection of useful CTF links/scripts/applications. :mage_man:
 | Tool | Installation | Description |
 |----------|------|-------------|
 | Wireshark  | [Wireshark](https://www.wireshark.org/#download)<br/>sudo apt install wireshark | Analyze the network dumps. |
-| A-Packets  | [A-Packets](https://apackets.com/upload) | A web app for network dumps analysis. |
+| A-Packets  | [A-Packets](https://apackets.com/upload) | A web app for network dumps analysis (Up to 25MB). |
 
 
