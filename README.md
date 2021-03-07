@@ -5,7 +5,7 @@ This is collection of useful CTF links/scripts/applications. :mage_man:
 ## Forensic :floppy_disk:
 
 ### Files :open_file_folder:
-| Tool | Instalation | Description |
+| Tool | Installation | Description |
 |----------|:-:|-------------|
 | file | <center>...</center> | Check filetype extensions. Command: file screenshot.png  |
 | exiftool | [exiftool](https://linoxide.com/linux-how-to/install-use-exiftool-linux-ubuntu-centos/) | Read metadata |
@@ -17,7 +17,7 @@ This is collection of useful CTF links/scripts/applications. :mage_man:
 
 
 ### Images :camera:
-| Tool | Instalation | Description |
+| Tool | Installation | Description |
 |----------|------|-------------|
 | Stegsolve | [Stegsolve](Forensic/Images/Stegsolve.jar) | Image stenography solver.|
 | StegOnline | [StegOnline](https://stegonline.georgeom.net/upload) | Online Image Steganography Tool for Embedding and Extracting data through LSB techniques.|
@@ -27,19 +27,19 @@ This is collection of useful CTF links/scripts/applications. :mage_man:
 
 
 ### Audio :headphones:
-| Tool | Instalation | Description |
+| Tool | Installation | Description |
 |----------|------|-------------|
 | Sonic Visualiser | [Sonic Visualiser](https://www.sonicvisualiser.org/download.html) | Look at spectogram and other few Pane. |
 
 
 ## Crypto :lock:
-| Tool | Instalation | Description |
+| Tool | Installation | Description |
 |----------|------|-------------|
 | CyberChef | [CyberChef](https://gchq.github.io/CyberChef/) | A web app for encryption, encoding, compression and data analysis. |
 | dcode | [dcode](https://www.dcode.fr/tools-list) | A toolkit website for decryption, ciphertexts, cheating at letter games, solve riddles etc. |
 
 ## Networking :globe_with_meridians:
-| Tool | Instalation | Description |
+| Tool | Installation | Description |
 |----------|------|-------------|
 | Wireshark  | [Wireshark](https://www.wireshark.org/#download)<br/>sudo apt install wireshark | Analyze the network dumps. |
 | A-Packets  | [A-Packets](https://apackets.com/upload) | A web app for network dumps analysis. |
