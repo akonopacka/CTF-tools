@@ -9,7 +9,7 @@ This is collection of useful CTF links/scripts/applications. :mage_man:
 ### Files :open_file_folder:
 | Tool | Description | Sample Usage |
 |------|-------------|--------------|
-| file | Check filetype extensions. Command: file screenshot.png | > file <em>file_name</em> |
+| file | Check filetype extensions. Command: file screenshot.png | ```file <em>file_name</em>``` <pre>sample <b>sample</b> sample</pre> |
 | [exiftool](https://linoxide.com/linux-how-to/install-use-exiftool-linux-ubuntu-centos/) | Read metadata | ```exiftool file_name``` |
 | strings | apt-get install binutils | Search for all plain-text strings in the file |
 | hexdump | - | Creates an hex dump. Usage: hexdump -C file |
