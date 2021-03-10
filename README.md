@@ -7,6 +7,7 @@ This is collection of useful CTF links/scripts/applications. :mage_man:
 ## Forensic :floppy_disk:
 
 ### Files :open_file_folder:
+<<<<<<< HEAD
 | Tool | Description | Sample Usage |
 |------|-------------|--------------|
 | file | Check filetype extensions. | <pre>file <em>file_name</em></pre> |
@@ -15,6 +16,19 @@ This is collection of useful CTF links/scripts/applications. :mage_man:
 | hexdump | Creates an hex dump. | <pre>hexdump -C <em>file</em></pre> |
 | [binwalk](https://github.com/ReFirmLabs/binwalk) | Tool for analyzing, reverse engineering, and extracting. | <pre>binwalk -e <em>file_name</em><br/>binwalk --dd='.*' <em>file_name</em></pre>
 | [steghide](http://steghide.sourceforge.net/documentation/manpage.php) | Hide data in various kinds of image- and audio-files. Install: <pre>sudo apt install steghide</pre> | - |
+=======
+| Tool | Installation | Description |
+|----------|:-:|-------------|￼
+
+
+| file | <center>...</center> | Check filetype extensions. Command: file screenshot.png  |
+| exiftool | [exiftool](https://linoxide.com/linux-how-to/install-use-exiftool-linux-ubuntu-centos/) | Read metadata |
+| strings | apt-get install binutils | Search for all plain-text strings in the file |
+| hexdump | ... | Creates an hex dump. Usage: hexdump -C file |
+| binwalk | [binwalk](https://github.com/ReFirmLabs/binwalk) | Tool for analyzing, reverse engineering, and extracting. Usage: <br/> binwalk --dd='.*' file<br /> binwalk -e file|
+| steghide | sudo apt install steghide | Hide data in various kinds of image- and audio-files |
+
+>>>>>>> a827fa9 (Minor changes)
 
 
 ### Images :camera:
@@ -63,6 +77,11 @@ This is collection of useful CTF links/scripts/applications. :mage_man:
 | [ODA](https://onlinedisassembler.com/odaweb/) | Online DisAssembler. | - |
 | [UNPACME](https://www.unpac.me/#/) | An automated malware unpacking service.  | - |
 
+## RedTeaming :czerwona_kropeczka:
+### Recon :eyes:
+| Tool | Description | Sample Usage |
+|----------|--------------|-------------|
+| [Smbmap](https://github.com/ShawnDEvans/smbmap) | Smb shares discovery. Much the same as smbclient but with some supplementary permission and access. | To try and list shares as the anonymous user ( False negatives happen tho ): </br><pre> smbmap -H 10.10.10.10 -u anonymous </pre></br> And you can also specify a domain: <pre> smbmap -H 10.10.10.10 -d domain.xyz </pre></br> If above returned NO_LOGON_SERVERS try <pre> smbmap -H 10.10.10.125 -u anonymous -d localhost </pre> |
 
 ## OSINT :eyes:
 | Tool | Description | Sample Usage |
