@@ -9,12 +9,12 @@ This is collection of useful CTF links/scripts/applications. :mage_man:
 ### Files :open_file_folder:
 | Tool | Description | Sample Usage |
 |------|-------------|--------------|
-| file | Check filetype extensions. Command: file screenshot.png | <pre>file <em>file_name</em></pre> |
+| file | Check filetype extensions. | <pre>file <em>file_name</em></pre> |
 | [exiftool](https://linoxide.com/linux-how-to/install-use-exiftool-linux-ubuntu-centos/) | Read metadata | <pre>exiftool <em>file_name</em></pre> |
 | strings | Search for all plain-text strings in the file<br>Install: <pre>sudo apt-get install binutils</pre> | <pre>strings <em>file_name</em></pre> |
 | hexdump | Creates an hex dump. | <pre>hexdump -C <em>file</em></pre> |
 | [binwalk](https://github.com/ReFirmLabs/binwalk) | Tool for analyzing, reverse engineering, and extracting. | <pre>binwalk -e <em>file_name</em></pre><br/> <pre>binwalk --dd='.*' <em>file_name</em></pre>
-| [steghide](http://steghide.sourceforge.net/documentation/manpage.php) | Hide data in various kinds of image- and audio-files.<br>Install: <pre>sudo apt install steghide</pre> | - |
+| [steghide](http://steghide.sourceforge.net/documentation/manpage.php) | Hide data in various kinds of image- and audio-files. Install: <pre>sudo apt install steghide</pre> | - |
 
 
 ### Images :camera:
