@@ -7,10 +7,10 @@ This is collection of useful CTF links/scripts/applications. :mage_man:
 ## Forensic :floppy_disk:
 
 ### Files :open_file_folder:
-| Tool | Installation | Description |
-|----------|------|-------------|
-| file | -| Check filetype extensions. Command: file screenshot.png  |
-| exiftool | [exiftool](https://linoxide.com/linux-how-to/install-use-exiftool-linux-ubuntu-centos/) | Read metadata |
+| Tool | Description | Sample Usage |
+|------|-------------|--------------|
+| file | Check filetype extensions. Command: file screenshot.png | > file <em>file_name</em> |
+| [exiftool](https://linoxide.com/linux-how-to/install-use-exiftool-linux-ubuntu-centos/) | Read metadata | ```exiftool file_name``` |
 | strings | apt-get install binutils | Search for all plain-text strings in the file |
 | hexdump | - | Creates an hex dump. Usage: hexdump -C file |
 | binwalk | [binwalk](https://github.com/ReFirmLabs/binwalk) | Tool for analyzing, reverse engineering, and extracting. Usage: <br/> binwalk --dd='.*' file<br /> binwalk -e file|
