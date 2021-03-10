@@ -9,62 +9,62 @@ This is collection of useful CTF links/scripts/applications. :mage_man:
 ### Files :open_file_folder:
 | Tool | Description | Sample Usage |
 |------|-------------|--------------|
-| file | Check filetype extensions. Command: file screenshot.png | ```file <em>file_name</em>``` <pre>sample <b>sample</b> sample</pre> |
-| [exiftool](https://linoxide.com/linux-how-to/install-use-exiftool-linux-ubuntu-centos/) | Read metadata | ```exiftool file_name``` |
-| strings | apt-get install binutils | Search for all plain-text strings in the file |
-| hexdump | - | Creates an hex dump. Usage: hexdump -C file |
-| binwalk | [binwalk](https://github.com/ReFirmLabs/binwalk) | Tool for analyzing, reverse engineering, and extracting. Usage: <br/> binwalk --dd='.*' file<br /> binwalk -e file|
-| steghide | sudo apt install steghide | Hide data in various kinds of image- and audio-files |
+| file | Check filetype extensions. Command: file screenshot.png | <pre>file <em>file_name</em></pre> |
+| [exiftool](https://linoxide.com/linux-how-to/install-use-exiftool-linux-ubuntu-centos/) | Read metadata | <pre>exiftool <em>file_name</em></pre> |
+| strings | Search for all plain-text strings in the file<br>Install: <pre>sudo apt-get install binutils</pre> | <pre>strings <em>file_name</em></pre> |
+| hexdump | Creates an hex dump. | <pre>hexdump -C <em>file</em></pre> |
+| [binwalk](https://github.com/ReFirmLabs/binwalk) | Tool for analyzing, reverse engineering, and extracting. | <pre>binwalk -e <em>file_name</em></pre><br/> <pre>binwalk --dd='.*' <em>file_name</em></pre>
+| [steghide](http://steghide.sourceforge.net/documentation/manpage.php) | Hide data in various kinds of image- and audio-files.<br>Install: <pre>sudo apt install steghide</pre> | - |
 
 
 ### Images :camera:
-| Tool | Installation | Description |
-|----------|------|-------------|
-| Stegsolve | [Stegsolve](Forensic/Images/Stegsolve.jar) | Image stenography solver.|
-| StegOnline | [StegOnline](https://stegonline.georgeom.net/upload) | Online Image Steganography Tool for Embedding and Extracting data through LSB techniques.|
-| zsteg | [zsteg](https://github.com/zed-0xff/zsteg)<br/>sudo gem install zsteg | Detect stegano-hidden data in PNG & BMP.<br/>Usage: zsteg -a file|
-| jpdump | [jpdump](https://cyber.meme.tips/jpdump/) | A web app - read metadata|
-| Steg0saurus Chex | [Steg0saurus Chex](https://lukeslytalker.pythonanywhere.com/) | Scan for various forms of image steganography.|
-| Steganography Online | [Steganography Online](https://stylesuxx.github.io/steganography/) | To decode a hidden message from an image. |
-| Image Steganography | [Image Steganography](https://incoherency.co.uk/image-steganography/#unhide) | Steganographically (un)hide images inside the lower "bits" of other images. |
+| Tool | Description | Sample Usage |
+|------|-------------|--------------|
+| [Stegsolve](Forensic/Images/Stegsolve.jar) | Image stenography solver.| - |
+| [StegOnline](https://stegonline.georgeom.net/upload) | Online Image Steganography Tool for Embedding and Extracting data through LSB techniques.| - |
+| [zsteg](https://github.com/zed-0xff/zsteg)| Detect stegano-hidden data in PNG & BMP. <br/>Install: <pre>sudo gem install zsteg</pre> | <pre>zsteg -a <em>file_name</em></pre>|
+| [jpdump](https://cyber.meme.tips/jpdump/) | A web app - read metadata| - |
+| [Steg0saurus Chex](https://lukeslytalker.pythonanywhere.com/) | Scan for various forms of image steganography.|
+| [Steganography Online](https://stylesuxx.github.io/steganography/) | To decode a hidden message from an image. | - |
+|  [Image Steganography](https://incoherency.co.uk/image-steganography/#unhide) | Steganographically (un)hide images inside the lower "bits" of other images. | - |
 
 
 ### Audio :headphones:
-| Tool | Installation | Description |
-|----------|------|-------------|
-| Sonic Visualiser | [Sonic Visualiser](https://www.sonicvisualiser.org/download.html) | Look at spectogram and other few Pane. |
-| Morse Decoder | [Morse Decoder](https://morsecode.world/international/decoder/audio-decoder-adaptive.html) |  Tool to analyse, decode Morse code in audio files. |
+| Tool | Description | Sample Usage |
+|------|-------------|--------------|
+| [Sonic Visualiser](https://www.sonicvisualiser.org/download.html) | Look at spectogram and other few Pane. | - |
+| [Morse Decoder](https://morsecode.world/international/decoder/audio-decoder-adaptive.html) |  Tool to analyse, decode Morse code in audio files. | - |
 
 
 ## Crypto :lock:
-| Tool | Installation | Description |
-|----------|------|-------------|
-| CyberChef | [CyberChef](https://gchq.github.io/CyberChef/) | A web app for encryption, encoding, compression and data analysis. |
-| dcode | [dcode](https://www.dcode.fr/tools-list) | A toolkit website for decryption, ciphertexts, cheating at letter games, solve riddles etc. |
-| CrackStation | [CrackStation](https://crackstation.net/) | Pre-computed lookup tables to crack password hashes. |
-| Cipher Tools | [Cipher Tools](http://rumkin.com/tools/cipher/) | Web-based tools for ciphers and codes. |
-| Vigenere Cipher | [Vigenere Cipher](https://www.dcode.fr/vigenere-cipher) | Tool to decrypt/encrypt Vigenere automatically. |
-| Vigenere Solver | [Vigenere Solver](https://www.guballa.de/vigenere-solver) | The online tool breaks Vigenère ciphers without knowing the key. |
-| VIGENERE | [VIGENERE](https://f00l.de/hacking/vigenere.php) | Online vigenere analysis and cracking. |
+| Tool | Description | Sample Usage |
+|------|-------------|--------------|
+| [CyberChef](https://gchq.github.io/CyberChef/) | A web app for encryption, encoding, compression and data analysis. | - |
+| [dcode](https://www.dcode.fr/tools-list) | A toolkit website for decryption, ciphertexts, cheating at letter games, solve riddles etc. | - |
+| [CrackStation](https://crackstation.net/) | Pre-computed lookup tables to crack password hashes. | - |
+| [Cipher Tools](http://rumkin.com/tools/cipher/) | Web-based tools for ciphers and codes. | - |
+| [Vigenere Cipher](https://www.dcode.fr/vigenere-cipher) | Tool to decrypt/encrypt Vigenere automatically. | - |
+| [Vigenere Solver](https://www.guballa.de/vigenere-solver) | The online tool breaks Vigenère ciphers without knowing the key. | - |
+| [VIGENERE](https://f00l.de/hacking/vigenere.php) | Online vigenere analysis and cracking. | - |
 
 
 ## Networking :globe_with_meridians:
-| Tool | Installation | Description |
-|----------|------|-------------|
-| Wireshark  | [Wireshark](https://www.wireshark.org/#download)<br/>sudo apt install wireshark | Analyze the network dumps. |
-| A-Packets  | [A-Packets](https://apackets.com/upload) | A web app for network dumps analysis (Up to 25MB). |
-| PacketTotal | [PacketTotal](https://packettotal.com/) | A web app - analyzing, categorizing, and sharing .pcap files. (Up to 50MB) |
+| Tool | Description | Sample Usage |
+|------|-------------|--------------|
+| [Wireshark](https://www.wireshark.org/#download)<br/>sudo apt install wireshark | Analyze the network dumps. | - |
+| [A-Packets](https://apackets.com/upload) | A web app for network dumps analysis (Up to 25MB). | - |
+| [PacketTotal](https://packettotal.com/) | A web app - analyzing, categorizing, and sharing .pcap files. (Up to 50MB) | - |
 
 
 ## REVERSE :leftwards_arrow_with_hook:
-| Tool | Installation | Description |
-|----------|------|-------------|
-| ODA | [ODA](https://onlinedisassembler.com/odaweb/) | Online DisAssembler. |
-| UNPACME | [UNPACME](https://www.unpac.me/#/) | An automated malware unpacking service.  |
+| Tool | Description | Sample Usage |
+|------|-------------|--------------|
+| [ODA](https://onlinedisassembler.com/odaweb/) | Online DisAssembler. | - |
+| [UNPACME](https://www.unpac.me/#/) | An automated malware unpacking service.  | - |
 
 
 ## OSINT :eyes:
-| Tool | Installation | Description |
-|----------|------|-------------|
-| Wikimapia | [Wikimapia](http://wikimapia.org/) | An open-content collaborative mapping project. Find specific landmarks. |
-| SunCalc | [SunCalc](http://suncalc.net/) |  A web app that shows sun movement and sunlight phases during the given day at the given location. It makes finding location on the picture easier based on the shadows.|
+| Tool | Description | Sample Usage |
+|------|-------------|--------------|
+| [Wikimapia](http://wikimapia.org/) | An open-content collaborative mapping project. Find specific landmarks. | - |
+| [SunCalc](http://suncalc.net/) |  A web app that shows sun movement and sunlight phases during the given day at the given location. It makes finding location on the picture easier based on the shadows.| - |
