@@ -51,7 +51,8 @@ This is collection of useful CTF links/scripts/applications. :mage_man:
 ## Networking :globe_with_meridians:
 | Tool | Description | Sample Usage |
 |------|-------------|--------------|
-| [Wireshark](https://www.wireshark.org/#download)<br/>sudo apt install wireshark | Analyze the network dumps. | - |
+| [Wireshark](https://www.wireshark.org/#download) | Analyze the network dumps. | - |
+| [NetworkMiner](https://www.netresec.com/?page=NetworkMiner) | Network traffic analysis, extracting artifacts, such as files or credentials from pcap files. | - |
 | [A-Packets](https://apackets.com/upload) | A web app for network dumps analysis (Up to 25MB). | - |
 | [PacketTotal](https://packettotal.com/) | A web app - analyzing, categorizing, and sharing .pcap files. (Up to 50MB) | - |
 
