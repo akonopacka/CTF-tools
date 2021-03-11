@@ -4,7 +4,7 @@ This is collection of useful CTF links/scripts/applications. :mage_man:
 
 [Useful writeups](Writeups/README_WRITEUPS.md)
 
-## Forensic :floppy_disk:
+## FORENSIC :floppy_disk:
 
 ### Files :open_file_folder:
 
@@ -37,7 +37,7 @@ This is collection of useful CTF links/scripts/applications. :mage_man:
 | [Morse Decoder](https://morsecode.world/international/decoder/audio-decoder-adaptive.html) |  Tool to analyse, decode Morse code in audio files. | - |
 
 
-## Crypto :lock:
+## CRYPTO :lock:
 | Tool | Description | Sample Usage |
 |------|-------------|--------------|
 | [CyberChef](https://gchq.github.io/CyberChef/) | A web app for encryption, encoding, compression and data analysis. | - |
@@ -49,7 +49,7 @@ This is collection of useful CTF links/scripts/applications. :mage_man:
 | [VIGENERE](https://f00l.de/hacking/vigenere.php) | Online vigenere analysis and cracking. | - |
 
 
-## Networking :globe_with_meridians:
+## NETWORKING :globe_with_meridians:
 | Tool | Description | Sample Usage |
 |------|-------------|--------------|
 | [Wireshark](https://www.wireshark.org/#download) | Analyze the network dumps. | - |
@@ -64,7 +64,7 @@ This is collection of useful CTF links/scripts/applications. :mage_man:
 | [ODA](https://onlinedisassembler.com/odaweb/) | Online DisAssembler. | - |
 | [UNPACME](https://www.unpac.me/#/) | An automated malware unpacking service.  | - |
 
-## RedTeaming :red_circle:
+## REDTEAMING :red_circle:
 ### Recon :eyes:
 | Tool | Description | Sample Usage |
 |----------|--------------|-------------|
