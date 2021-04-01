@@ -29,7 +29,7 @@ This is collection of useful CTF links/scripts/applications. :mage_man:
 | [Steg0saurus Chex](https://lukeslytalker.pythonanywhere.com/) | Scan for various forms of image steganography.|
 | [Steganography Online](https://stylesuxx.github.io/steganography/) | To decode a hidden message from an image. | - |
 |  [Image Steganography](https://incoherency.co.uk/image-steganography/#unhide) | Steganographically (un)hide images inside the lower "bits" of other images. | - |
-
+| [QRazyBox](https://merricx.github.io/qrazybox/) | QR Code Analysis and Recovery Toolkit.| - |
 
 ### Audio :headphones:
 | Tool | Description | Sample Usage |
